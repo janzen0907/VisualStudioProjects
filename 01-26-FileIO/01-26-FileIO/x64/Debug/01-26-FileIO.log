@@ -1,0 +1,13 @@
+﻿  file_io.c
+C:\VisualStudioProjects\01-26-FileIO\01-26-FileIO\file_io.c(74,12): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\01-26-FileIO\01-26-FileIO\file_io.c(54,6): warning C4101: 'intChar': unreferenced local variable
+C:\VisualStudioProjects\01-26-FileIO\01-26-FileIO\file_io.c(171,12): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\01-26-FileIO\01-26-FileIO\file_io.c(251,13): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\01-26-FileIO\01-26-FileIO\file_io.c(252,14): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\01-26-FileIO\01-26-FileIO\file_io.c(301,13): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\01-26-FileIO\01-26-FileIO\file_io.c(283,12): warning C4101: 'retSin': unreferenced local variable
+C:\VisualStudioProjects\01-26-FileIO\01-26-FileIO\file_io.c(283,20): warning C4101: 'retName': unreferenced local variable
+  program.c
+  Generating Code...
+C:\VisualStudioProjects\01-26-FileIO\01-26-FileIO\file_io.c(200): warning C4716: 'demoWriteBinary': must return a value
+LINK : fatal error LNK1168: cannot open C:\VisualStudioProjects\01-26-FileIO\x64\Debug\01-26-FileIO.exe for writing

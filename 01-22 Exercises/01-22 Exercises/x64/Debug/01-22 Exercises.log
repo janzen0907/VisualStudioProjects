@@ -1,0 +1,17 @@
+﻿  program.c
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(20,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(20,9): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(20,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'int'
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(20,9): warning C4313: 'printf': '%s' in format string conflicts with argument 2 of type 'int'
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(28,25): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(28,13): warning C4024: 'enter_name': different types for formal and actual parameter 1
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(28,39): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(28,27): warning C4024: 'enter_name': different types for formal and actual parameter 2
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(44,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(44,9): message : consider using '%zd' in the format string
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(52,25): warning C4047: 'function': 'char *' differs in levels of indirection from 'char'
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(52,11): warning C4024: 'strcat_s': different types for formal and actual parameter 1
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(42,8): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'char (*)[255]'
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(38,6): warning C4101: 'sameResult': unreferenced local variable
+C:\VisualStudioProjects\01-22 Exercises\01-22 Exercises\program.c(37,6): warning C4101: 'result': unreferenced local variable
+  01-22 Exercises.vcxproj -> C:\VisualStudioProjects\01-22 Exercises\x64\Debug\01-22 Exercises.exe
