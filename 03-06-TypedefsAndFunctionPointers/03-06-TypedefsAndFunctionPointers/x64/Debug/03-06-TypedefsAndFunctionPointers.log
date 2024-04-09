@@ -1,0 +1,8 @@
+﻿  program.c
+C:\VisualStudioProjects\03-06-TypedefsAndFunctionPointers\03-06-TypedefsAndFunctionPointers\program.c(83,25): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\03-06-TypedefsAndFunctionPointers\03-06-TypedefsAndFunctionPointers\program.c(84,25): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\03-06-TypedefsAndFunctionPointers\03-06-TypedefsAndFunctionPointers\program.c(85,25): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\03-06-TypedefsAndFunctionPointers\03-06-TypedefsAndFunctionPointers\program.c(86,25): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\03-06-TypedefsAndFunctionPointers\03-06-TypedefsAndFunctionPointers\program.c(86,32): warning C4113: 'int (__cdecl *)(short)' differs in parameter lists from 'FNPTR_TYPE'
+C:\VisualStudioProjects\03-06-TypedefsAndFunctionPointers\03-06-TypedefsAndFunctionPointers\program.c(88,19): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  03-06-TypedefsAndFunctionPointers.vcxproj -> C:\VisualStudioProjects\03-06-TypedefsAndFunctionPointers\x64\Debug\03-06-TypedefsAndFunctionPointers.exe

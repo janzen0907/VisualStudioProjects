@@ -1,0 +1,2 @@
+﻿  program.c
+LINK : fatal error LNK1104: cannot open file 'C:\VisualStudioProjects\02-26-BitwiseManipulation\02-26-BitwiseManipulation\x64\Debug\02-26-BitwiseManipulation.exe'
