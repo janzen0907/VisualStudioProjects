@@ -1,0 +1,4 @@
+﻿  program.c
+C:\VisualStudioProjects\01-26-IntorToPtrToPtr\01-26-IntorToPtrToPtr\program.c(109,21): warning C4090: '=': different 'const' qualifiers
+C:\VisualStudioProjects\01-26-IntorToPtrToPtr\01-26-IntorToPtrToPtr\program.c(116,19): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+  01-26-IntorToPtrToPtr.vcxproj -> C:\VisualStudioProjects\01-26-IntorToPtrToPtr\x64\Debug\01-26-IntorToPtrToPtr.exe
