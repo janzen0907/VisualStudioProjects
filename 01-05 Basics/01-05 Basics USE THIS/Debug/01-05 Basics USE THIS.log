@@ -1,0 +1,4 @@
+﻿  program.c
+C:\VisualStudioProjects\01-05 Basics\01-05 Basics USE THIS\program.c(66,7): warning C4215: nonstandard extension used: long float
+C:\VisualStudioProjects\01-05 Basics\01-05 Basics USE THIS\program.c(216,8): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'char (*)[18]'
+  01-05 Basics USE THIS.vcxproj -> C:\VisualStudioProjects\01-05 Basics\Debug\01-05 Basics.exe

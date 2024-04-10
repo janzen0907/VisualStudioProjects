@@ -1,0 +1,9 @@
+﻿  program.c
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(117,9): warning C4047: 'initializing': 'char **' differs in levels of indirection from 'char *'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(155,29): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(156,29): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(157,29): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(158,29): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(159,29): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(160,30): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+  PointerToPointer.vcxproj -> C:\VisualStudioProjects\PointerToPointer\Debug\02-12 PointerToPointer.exe

@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (01-05 Basics USE THIS.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  program.c
+C:\VisualStudioProjects\01-05 Basics\01-05 Basics USE THIS\program.c(66,7): warning C4215: nonstandard extension used: long float
+  01-05 Basics USE THIS.vcxproj -> C:\VisualStudioProjects\01-05 Basics\x64\Debug\01-05 Basics.exe

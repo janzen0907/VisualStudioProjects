@@ -1,0 +1,15 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (PointerToPointer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  program.c
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(27,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(116,9): warning C4047: 'initializing': 'char **' differs in levels of indirection from 'char *'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(154,29): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(155,29): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(156,29): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(157,29): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(158,29): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(159,30): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(180,26): warning C4473: 'scanf' : not enough arguments passed for format string
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(180,26): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(180,26): message : the missing variadic argument 1 is required by format string '%lf'
+C:\VisualStudioProjects\PointerToPointer\PointerToPointer\program.c(183): warning C4716: 'getDynamicDoubles': must return a value
+  PointerToPointer.vcxproj -> C:\VisualStudioProjects\PointerToPointer\x64\Debug\02-12 PointerToPointer.exe

@@ -1,0 +1,6 @@
+﻿  functions.c
+C:\VisualStudioProjects\02-05-ReviewAndMisc\02-05-ReviewAndMisc\functions.c(21,25): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\VisualStudioProjects\02-05-ReviewAndMisc\02-05-ReviewAndMisc\functions.c(24,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'int'
+C:\VisualStudioProjects\02-05-ReviewAndMisc\02-05-ReviewAndMisc\functions.c(24,9): warning C4313: 'printf': '%p' in format string conflicts with argument 1 of type 'int'
+C:\VisualStudioProjects\02-05-ReviewAndMisc\02-05-ReviewAndMisc\functions.c(7,7): warning C4047: 'initializing': 'char' differs in levels of indirection from 'void *'
+  02-05-ReviewAndMisc.vcxproj -> C:\VisualStudioProjects\02-05-ReviewAndMisc\x64\Debug\02-05-ReviewAndMisc.exe

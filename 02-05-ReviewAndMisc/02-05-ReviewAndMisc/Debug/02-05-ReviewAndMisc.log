@@ -1,0 +1,3 @@
+﻿  functions.c
+C:\VisualStudioProjects\02-05-ReviewAndMisc\02-05-ReviewAndMisc\functions.c(136,7): warning C4101: 'cNameBuffer': unreferenced local variable
+  02-05-ReviewAndMisc.vcxproj -> C:\VisualStudioProjects\02-05-ReviewAndMisc\Debug\02-05-ReviewAndMisc.exe

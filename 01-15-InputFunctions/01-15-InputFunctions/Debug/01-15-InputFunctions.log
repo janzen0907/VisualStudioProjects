@@ -1,0 +1,6 @@
+﻿  inputfuncs.c
+C:\VisualStudioProjects\01-15-InputFunctions\01-15-InputFunctions\inputfuncs.c(22,7): warning C4101: 'cArray2': unreferenced local variable
+C:\VisualStudioProjects\01-15-InputFunctions\01-15-InputFunctions\inputfuncs.c(23,7): warning C4101: 'cArray': unreferenced local variable
+C:\VisualStudioProjects\01-15-InputFunctions\01-15-InputFunctions\inputfuncs.c(24,6): warning C4101: 'iReturns': unreferenced local variable
+C:\VisualStudioProjects\01-15-InputFunctions\01-15-InputFunctions\inputfuncs.c(229): warning C4172: returning address of local variable or temporary: cBuffer
+  01-15-InputFunctions.vcxproj -> C:\VisualStudioProjects\01-15-InputFunctions\Debug\01-15-InputFunctions.exe

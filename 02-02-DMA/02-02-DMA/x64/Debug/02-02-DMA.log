@@ -1,0 +1,4 @@
+﻿  program.c
+C:\VisualStudioProjects\02-02-DMA\02-02-DMA\program.c(84,3): warning C4013: 'printNameAndSin' undefined; assuming extern returning int
+program.obj : error LNK2019: unresolved external symbol printNameAndSin referenced in function testNameAndSIN
+C:\VisualStudioProjects\02-02-DMA\x64\Debug\02-02-DMA.exe : fatal error LNK1120: 1 unresolved externals
