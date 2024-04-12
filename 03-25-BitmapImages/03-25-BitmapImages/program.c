@@ -192,16 +192,41 @@ void TestCrop()
 {
 	FILE* infile = GetFile("Enter file to open: ", "rb");
 	IMAGE img1 = { NULL, NULL };
+	// These cords are for the front wheel in bike.bmp
+	int xLeft = 140;
+	int yLeft = 32;
+	int xRight = 210;
+	int yRight = 100;
 	ReadImage(&img1, infile);
 	fclose(infile);
 
-	IMAGE img2 = Crop(&img1, 10, 10, 10, 10);
+	IMAGE imgCrop = { NULL, NULL };
 	FILE* outfile = GetFile("Enter file to save to: ", "wb");
-	WriteImage(&img2, outfile);
+	imgCrop = Crop(&img1, xLeft, yLeft, xRight, yRight);
+	WriteImage(&imgCrop, outfile);
 	fclose(outfile);
 
 	FreeImage(&img1);
-	FreeImage(&img2);
+	FreeImage(&imgCrop);
+}
+
+void TestRotate()
+{
+	FILE* infile = GetFile("Enter file to open: ", "rb");
+	IMAGE img1 = { NULL, NULL };
+	ReadImage(&img1, infile);
+	fclose(infile);
+
+	IMAGE imgRotate = { NULL, NULL };
+	// Error here
+	//imgRotate = RotateImage(&img1, (45.0 * PI) / 180.0);
+	imgRotate = FancyRotateImage(&img1, (30.0 * PI) / 180.0);
+	FILE* outfile = GetFile("Enter file to save to: ", "wb");
+	WriteImage(&imgRotate, outfile);
+	fclose(outfile);
+
+	FreeImage(&img1);
+	FreeImage(&imgRotate);
 }
 
 int main()
@@ -213,7 +238,9 @@ int main()
 	//TestTwoImages();
 
 	//TestResizeCanvas();
-	TestCrop();
+	//TestCrop();
+
+	TestRotate();
 
 	return EXIT_SUCCESS;
 }

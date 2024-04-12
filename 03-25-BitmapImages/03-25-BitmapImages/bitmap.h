@@ -3,6 +3,8 @@
 
 #include <stdio.h>
 
+#define PI 3.14159265358979323846
+
 typedef unsigned char BYTE;
 typedef unsigned short WORD;
 typedef unsigned int DWORD;
@@ -93,8 +95,23 @@ IMAGE ResizeCanvas(IMAGE* originalImgPtr, int newWidth, int newHeight);
 /// to some background color
 void InitializePixelData(IMAGE* imgPtr, PIXEL desiredPixel);
 
-
+// Given an image and an upper left and lower right coordinate, crop the image
 IMAGE Crop(IMAGE* imgPtr, int xLeft, int yLeft, int xRight, int yRight);
+
+// Given an image and an angle in radians, rotate the image counterclockwise.
+IMAGE Rotate(IMAGE* imgPtr, double theata);
+
+// Fill in the "holes" liedt in the roated image with the average of the neighbours
+void AntiAlias(IMAGE* imgPtr);
+
+/*
+* Purose: Given an image and an angle in radians, rotate that image counterclockwise
+*			in a larger canvas.
+* Parameters: imgPtr -> an image to rotate
+*				theta -> an image measured in radians
+* Returns:		rotated image
+*/
+IMAGE FancyRotateImage(IMAGE* imgPtr, double theta);
 
 
 #endif // !BITMAP_H

@@ -1,2 +1,8 @@
-﻿  program.c
+﻿  bitmap.c
+C:\VisualStudioProjects\03-25-BitmapImages\03-25-BitmapImages\bitmap.c(356,69): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\03-25-BitmapImages\03-25-BitmapImages\bitmap.c(357,69): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\03-25-BitmapImages\03-25-BitmapImages\bitmap.c(488,41): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\03-25-BitmapImages\03-25-BitmapImages\bitmap.c(489,29): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\03-25-BitmapImages\03-25-BitmapImages\bitmap.c(493,42): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\03-25-BitmapImages\03-25-BitmapImages\bitmap.c(494,29): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
   03-25-BitmapImages.vcxproj -> C:\VisualStudioProjects\03-25-BitmapImages\x64\Debug\03-25-BitmapImages.exe
